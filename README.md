@@ -61,3 +61,37 @@ node index.js multiply 12 8
 ### Screenshot
 
 ![N2 Calculator Output](set1/n2-calculator/screenshots/add.jpg)
+
+
+
+
+## N3 – File Manager with fs and path
+
+**Activity:** N3 – File Manager  
+**Student:** Leomhel P. Anthwal  
+**Section:** IV-BSIT C
+
+### Description
+
+This Node.js program uses the built-in `fs` and `path` modules to manage text files. It supports creating, reading, updating, deleting, and listing files. It also handles missing-file errors without crashing.
+
+### How to Run
+
+Open a terminal in the `set1/n3-file-manager` folder.
+
+```powershell
+node index.js create sample.txt "Hello World"
+node index.js read sample.txt
+node index.js append sample.txt " Additional text"
+node index.js list
+node index.js delete sample.txt
+```
+
+### Project Folder
+
+[N3 – File Manager](set1/n3-file-manager/)
+
+### Screenshot – List Files
+
+![N3 File Manager List Output](set1/n3-file-manager/screenshots/list.jpg)
+
