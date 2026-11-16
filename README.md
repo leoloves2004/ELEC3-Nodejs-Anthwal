@@ -34,3 +34,30 @@ npm start
 - N4 – Basic HTTP Server
 - N5 – REST-style API
 - N6 – Middleware and API Testing
+
+
+
+
+## N2 – Modular Calculator
+
+A command-line calculator built with Node.js using
+CommonJS modules. It supports addition, subtraction,
+multiplication, division, and average.
+
+### Run the program
+
+```powershell
+cd set1/n2-calculator
+node index.js add 12 8
+node index.js subtract 12 8
+node index.js divide 12 8
+node index.js multiply 12 8
+```
+
+### Activity Folder
+
+[N2 – Modular Calculator](set1/n2-calculator)
+
+### Screenshot
+
+![N2 Calculator Output](set1/n2-calculator/screenshots/add.jpg)
